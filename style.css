@@ -1,0 +1,250 @@
+body {
+    background-color: rgba(73, 219, 255, 0.197);
+}
+.header {
+    }
+    .header_body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    }
+    .header_body_logo {
+        color: rgba(0, 118, 43, 0.801);
+        padding: 10px 100px;
+        cursor: pointer;
+        transition-timing-function: linear;
+        transition-duration: 1s;
+    
+    }
+    .header_body_logo:hover{
+    color: rgb(21, 154, 0);
+    }
+    
+    .logo_inside{
+        transition-duration: 1s;
+    }
+    .header_body_logo:hover .logo_inside{
+        color: rgb(17, 124, 0);
+        font-size: 35px;
+        text-transform: uppercase;
+
+    }
+    .nav_menu {
+        color: rgba(0, 98, 36, 0.801);
+        
+    }
+    .nav_menu_item {
+        display: inline-block;
+        margin: 0px 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        position: relative;
+        cursor: pointer;
+    }
+    .nav_menu_item:nth-child(1)::after {
+        content: '';
+        left: 0;
+        top: 110%;
+        position: absolute;
+        height: 3px;
+        width: 0px;
+        background-color: blue;
+        transition: 0.4s;
+    }
+.nav_menu_item:hover:nth-child(1)::after {
+    width: 50px;
+}
+.nav_menu_item:nth-child(1) {
+    color: blue;
+}
+.nav_menu_item:hover {
+    font-style: italic;
+    transition: 0.4s;
+    color: blue;
+}
+
+.main {
+}
+.info-block {
+    text-align: center;
+    flex-direction: column;
+    position: relative; 
+}
+.title {
+    font-family: 'Kaushan Script';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.subtitle {
+    margin-top: 15px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+}
+.line {
+    border: 2px solid blue;
+    width: 100px;
+    margin: 12px auto;
+}
+
+.base {
+    display: flex;
+}
+.big_box {
+    display: flex;
+    margin: 100px 50px;
+    width:100%;
+}
+.foto_text {
+    display: flex;
+}
+.foto {
+    background-image: url(./foto/Group.png);
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.text {
+}
+.text_1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.text_2 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+margin-top: 10px;
+}
+.foto_2 {
+    background-image: url(./foto/Group\ \(1\).png);
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.foto_3 {
+    background-image: url(./foto/Group\ \(2\).png);
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.foto_4 {
+    background-image: url(./foto/line\ icons.png);
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.foto_5 {
+    background-image: url(./foto/home\ 1.png);
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.foto_6 {
+    background-image: url(./foto/digital-marketing\ 1.png);
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.text_down {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+margin-top: 30px;
+width: 70%;
+margin: 0 auto;
+}
+
+.a_lot_foto { 
+    display: flex;
+    margin: 30px 100px;
+    justify-content: space-between;
+}
+.man_1 {
+    background-image: url(./foto/first-man.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 20%;
+    height: 400px;
+}
+.man_2 {
+    background-image: url(./foto/second-man.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 20%;
+    height: 400px;
+}
+.man_3 {
+    background-image: url(./foto/third-man\ \(1\).png);
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 20%;
+    height: 400px;
+}
+
+.text_footer {
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+.end {
+    display: flex;
+}
+.input {
+    width: 150px;
+    height: 20px;
+}
+.subscribe {
+    margin: 0 auto;
+    background-color: #0303febd;
+    width: 100px;
+    height: 25px;
+    color: aqua;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Montserrat';
+font-style: normal;
+}
